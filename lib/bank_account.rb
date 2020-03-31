@@ -17,9 +17,7 @@ end
     "Your balance is $#{@balance}."
   end
   
-   def valid?
-    self.balance > 0 && self.status == "open" ? true : false
-  end
+   
   
   def close_account
     @status = "closed"
